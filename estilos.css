@@ -1,0 +1,26 @@
+body {
+  background-color: #f5deb3;
+  color: #000000;
+  font-family: Helvetica, sans-serif;
+  font-size: 1rem;
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: 'p22-underground', sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.productos {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.producto {
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
